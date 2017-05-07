@@ -1,0 +1,45 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title> Mac calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="main">
+		<form wicket:id="form" id="main">
+			<input id="result" wicket:id="input" value="0" type="text" maxlength="10"/>
+			<div class="rows">
+				<button wicket:id="clear" class="btn-style">AC</button>
+				<button wicket:id="inputs" value="+/-" class="btn-style">+/-</button>
+				<button wicket:id="perc" value="%" class="btn-style">%</button>
+				<button wicket:id="dev" value="/" class="btn-style last-btn">/</button>
+			</div>
+			<div class="rows">
+				<button wicket:id="input7" value="7" class="btn-style num-bg first-child">7</button>
+				<button wicket:id="input8" value="8" class="btn-style num-bg">8</button>
+				<button wicket:id="input9" value="9" class="btn-style num-bg">9</button>
+				<button wicket:id="sub" value="-" class="btn-style last-btn">-</button>
+			</div>
+			<div class="rows">
+				<button wicket:id="input4" value="4" class="btn-style num-bg first-child">4</button>
+				<button wicket:id="input5" value="5" class="btn-style num-bg">5</button>
+				<button wicket:id="input6" value="6" class="btn-style num-bg">6</button>
+				<button wicket:id="mult" value="*" class="btn-style last-btn">x</button>
+			</div>
+			<div class="rows">
+				<button wicket:id="input1" value="1" class="btn-style num-bg first-child">1</button>
+				<button wicket:id="input2" value="2" class="btn-style num-bg">2</button>
+				<button wicket:id="input3" value="3" class="btn-style num-bg">3</button>
+				<button wicket:id="add" value="+" class="btn-style last-btn">+</button>
+			</div>
+			<div class="rows">
+				<button wicket:id="input0" value="0" class="btn-style double border-round-left">0</button>
+				<button wicket:id="inputp" value="." class="btn-style num-bg">.</button>
+				<button wicket:id="eq" value="=" class="btn-style border-round-right last-btn">=</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

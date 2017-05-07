@@ -1,0 +1,96 @@
+#main {
+    width:250px;
+    margin:50px auto;
+}
+
+button {
+    border:0;
+    color:#fff;
+    font-size:26px;
+}
+
+#result {
+    width:100%;
+	display: block;
+    font-family: sans-serif;
+    height: 60px;
+    margin: 0 auto;
+    text-align: right;
+    border: 0;
+    background: #4C4C4C;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 40px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#result:hover {
+    cursor: text;
+}
+
+
+.rows {
+    width: 100%;
+    display: inline-block;
+    
+}
+
+#main .rows:not(:last-child) {
+    border-bottom: 1px solid #9A9A9A;
+}
+
+
+/* Button styling */
+.btn-style {
+    height:50px;
+    display: block;
+    width: 25%;
+    float: left;
+    color: #000;
+}
+
+.btn-style:hover {
+    cursor: pointer;
+}
+
+.rows .btn-style:not(:last-child){
+    border-right: 1px solid #9A9A9A;
+}
+
+.border-round-left {
+    border-bottom-left-radius: 5px;
+}
+
+.border-round-right {
+    border-bottom-right-radius: 5px;
+}
+
+.double {
+    width: 50%;
+}
+
+ .num-bg {
+    background:#E0E0E0;
+    color:#000;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+}
+
+ .btn-style:active {
+    background:#4C4C4C;
+    color:#fff;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+}
+
+.last-btn {
+    background: #F79230;
+    color: #fff;
+}
