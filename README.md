@@ -1,1 +1,3 @@
-# Wicket-calculator
+Calculator
+
+The calculator is made using Apache Wicket. There are algorithms taken from the calculator used in Mac OS (and appearance). Since it's created in just a day, there may be inaccuracies in the work. Entering numbers is possible either directly from the physical keyboard to the calculator display (for this you need to activate the input field - the calculator display) or by using the buttons on the calculator. The processing of the operation of pressing numeric buttons could have been done using Java Script, but in this case I decided to use only Java for the purity of the example. Tested in the browser Google Chrome
